@@ -1,0 +1,79 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background: #fceded;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  background: #fff;
+  display: flex;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background: #fca5a5;
+  width: 350px;
+  height: 880px;
+}
+
+.my-photo {
+  width: 350px;
+}
+
+.about-me-container {
+  padding: 100px;
+}
+
+.contacts-container {
+  padding-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.contacts-title {
+  padding-bottom: 20px;
+}
+
+.my-name {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.contacts-link {
+  padding-bottom: 15px;
+  list-style: none;
+}
+
+.summary {
+  display: block;
+  width: 550px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 285px;
+}
+
+.github-image {
+  width: 25px;
+  height: 25px;
+}
+
+.rs-image {
+  width: 50px;
+  height: 50px;
+}
