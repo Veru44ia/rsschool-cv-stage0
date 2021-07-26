@@ -1,0 +1,37 @@
+﻿body {
+  font-family: "Libre Baskerville", serif;
+  background: #fceded;
+  padding: 10px;
+}
+.main-body {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  background: #fff;
+  display: flex;
+}
+.sidebar {
+  background: #fca5a5;
+  width: 350px;
+  padding-bottom: 50px;
+}
+.my-photo {
+  width: 350px;
+}
+.about-me-container {
+  padding: 100px;
+}
+
+.contacts-container {
+  padding-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.my-name {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.contacts-link {
+  padding-bottom: 15px;
+}
