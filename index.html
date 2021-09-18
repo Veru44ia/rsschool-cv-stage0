@@ -10,53 +10,68 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/shades-of-purple.min.css">
+    
   </head>
   <body>
-    <main class="main-body">
       <div class="wrapper">
         <div>
           <aside class="sidebar">
             <img class="my-photo" src="./img/photo.png" alt="My photo" />
             <div class="contacts-container">
-              <h2>Contacts:</h2>
-              <div class="contacts-link">
-                Phone number: <a href=" +375296097842">+375296097842</a>
-              </div>
-              <div>
-                Email:
-                <a href="mailto:vera3188@gmail.com">vera3188@gmail.com</a>
-              </div>
+              <h2 class="contacts-title">Contacts:</h2>
+              <ul>
+                <li class="contacts-link">Phone number: <a href=" +375296097842">+375296097842</a></li>
+                <li class="contacts-link">Email: <a href="mailto:vera3188@gmail.com">vera3188@gmail.com</a></li>
+              </ul>
             </div>
             <footer class="footer">
               <div>
-                <a href="https://github.com/Veru44ia" target="_blank"
-                  ><img
-                    class="github-image"
-                    src="./img/github.png"
-                    alt="github-image"
-                /></a>
+                <a href="https://github.com/Veru44ia" target="_blank"><img class="github-image" src="./img/github.png" alt="github-image"/></a>
               </div>
               <div><time datetime="2021">2021</time></div>
               <div>
-                <a href="https://rs.school/js/" target="_blank"
-                  ><img class="rs-image" src="./img/rs.svg" alt="rs-image"
-                /></a>
+                <a href="https://rs.school/js/" target="_blank"><img class="rs-image" src="./img/rs.svg" alt="rs-image"/></a>
               </div>
             </footer>
           </aside>
         </div>
-        <div class="about-me-container">
+        <main class="about-me-container">
           <div class="my-name">
             <h1>Vera Paliukhovich</h1>
           </div>
-          <div>
+          <article class="summary">
+            <h2>About me</h2>
+            <p>
+              I have no programming experience, but I am ready to learn a lot. My goal is to change the field of activity and
+              become a Junior Frontend Developer.
+            </p>
+          </article>
+          <section>
             <h2>Skills:</h2>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
+              <li>JavaScript</li>
             </ul>
-          </div>
-          <div>
+          </section>
+          <section>
+            <h2>Code</h2>
+            <pre>
+              <code class="js">
+const findSquares = num => {
+  let max = (Math.ceil(num / 2)) ** 2;
+  let min = max - num;
+  return `${max} - ${min}`;
+};
+              </code>
+            </pre>
+          </section>
+          <section>
+            <h2>Education</h2>
+            <p>Belarusian State Technological University</p>
+          </section>
+          <section>
             <h2>Languages:</h2>
             <ul>
               <li>Belarusian - native</li>
@@ -64,9 +79,10 @@
               <li>English - elementary</li>
               <li>French – elementary</li>
             </ul>
-          </div>
-        </div>
+          </section>
+        </main>
       </div>
-    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
